@@ -5,12 +5,13 @@
       <input type="text" v-model="text" name="text" placeholder="Add Task" />
     </div>
     <div class="form-control">
-      <label>Day & Time</label>
+      <label>Date & Time</label>
       <input
-        type="date"
+        type="datetime-local"
         v-model="day"
-        name="day"
-        placeholder="Add Day & Time"
+        id="local"
+        name="date"
+        placeholder="Add Date & Time"
       />
     </div>
     <div class="form-control form-control-check">
