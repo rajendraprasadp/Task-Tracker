@@ -35,7 +35,7 @@ export default {
   cursor: pointer;
 }
 .task.reminder {
-  border-left: 5px solid green;
+  border-left: 10px solid green;
 }
 .task h3 {
   display: flex;
