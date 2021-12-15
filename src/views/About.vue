@@ -1,9 +1,11 @@
 <template>
-  <router-link to="/"> <h4>go back</h4></router-link>
   <h2>Thanks for visiting!</h2>
+  <h3>Version 1.0.0</h3>
+  <router-link to="/"> <h4>go back</h4></router-link>
   <form>
     <div class="container">
-      <h1>CONTACT</h1>
+      <img src="../assets/logo.png" alt="vue3" />
+      <h4>CONTACT</h4>
       <label>rajuprasadp1@gmail.com</label>
     </div>
   </form>
@@ -43,7 +45,7 @@ label {
   text-align: center;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
+  border: 1px solid green;
   padding: 30px;
   border-radius: 5px;
 }
